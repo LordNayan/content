@@ -20,6 +20,8 @@ describe('import()', () => {
     it('exposes all methods and classes as named imports', () => {
 
         expect(Object.keys(Content)).to.equal([
+           'accept',
+            'contentLength',
             'default',
             'disposition',
             'type'
